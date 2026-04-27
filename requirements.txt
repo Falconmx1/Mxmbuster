@@ -3,3 +3,5 @@ boto3>=1.26.0
 tftpy>=0.8.0
 dnspython>=2.3.0
 google-cloud-storage>=2.9.0
+pymongo>=4.5.0
+redis>=5.0.0
