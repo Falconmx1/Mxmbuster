@@ -1,0 +1,10 @@
+www
+mail
+ftp
+ns1
+dev
+api
+test
+vpn
+admin
+mx
