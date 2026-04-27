@@ -29,16 +29,18 @@ pip install -r requirements.txt
 docker build -t mxmbuster .
 docker run --rm mxmbuster --help
 
-🎯 Ejemplos
-# Directorios
-python3 mxmbuster.py -u https://ejemplo.com -w wordlists/common.txt -t 50 -m dir
+🎯 Ejemplos de uso
+# DNS con detección de wildcard + guardado automático
+python3 mxmbuster.py -d ejemplo.com -w wordlists/dns.txt -m dns -t 50
 
-# Subdominios
-python3 mxmbuster.py -d ejemplo.com -w wordlists/dns.txt -m dns
+# Guardar resultados en archivo específico
+python3 mxmbuster.py -u https://ejemplo.com -w wordlists/common.txt -m dir -o results.txt
 
-# Virtual Host
-python3 mxmbuster.py -u https://ejemplo.com -w wordlists/vhost.txt -m vhost
+# GCS bucket enumeration
+python3 mxmbuster.py -b mi-bucket -m gcs
 
-🔧 Modos disponibles
+# Fuzzing con parámetro personalizado
+python3 mxmbuster.py -u https://ejemplo.com/page?FUZZ=1 -w wordlists/common.txt -m fuzz
 
-dir, dns, vhost, s3, gcs, tftp, fuzz
+# S3 bucket check
+python3 mxmbuster.py -b vulnerable-bucket -m s3
