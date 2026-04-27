@@ -1,0 +1,3 @@
+elastic:elastic
+admin:admin
+elastic:changeme
