@@ -1,2 +1,26 @@
-# Mxmbuster
+# 🦍 Mxmbuster
+
+[![Version](https://img.shields.io/badge/version-1.0.0-red)](https://github.com/Falconmx1/Mxmbuster)
+
+> **"Rompiendo muros, encontrando caminos"**  
 Herramienta ofensiva para pentesting y bug bounty.
+
+![meme](https://media.tenor.com/3bTxoK7OyPkAAAAC/mexico.gif)
+
+## 🔥 Características
+
+- 🌐 Web Directory/File Busting
+- 🧠 DNS Subdomain Discovery (wildcard support)
+- 🏢 Virtual Host Detection
+- ☁️ S3 + GCS open buckets
+- 📁 TFTP enumeration
+- 🧬 Fuzzing personalizable
+- ⚡ Multi-threading con control de concurrencia
+- 🐳 Docker ready
+
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/Falconmx1/Mxmbuster
+cd Mxmbuster
+pip install -r requirements.txt
