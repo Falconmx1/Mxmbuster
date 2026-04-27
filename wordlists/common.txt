@@ -1,0 +1,10 @@
+admin
+backup
+uploads
+js
+css
+config
+.git
+.env
+secret
+private
