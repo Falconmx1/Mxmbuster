@@ -24,3 +24,21 @@ Herramienta ofensiva para pentesting y bug bounty.
 git clone https://github.com/Falconmx1/Mxmbuster
 cd Mxmbuster
 pip install -r requirements.txt
+
+📦 Usar con Docker
+docker build -t mxmbuster .
+docker run --rm mxmbuster --help
+
+🎯 Ejemplos
+# Directorios
+python3 mxmbuster.py -u https://ejemplo.com -w wordlists/common.txt -t 50 -m dir
+
+# Subdominios
+python3 mxmbuster.py -d ejemplo.com -w wordlists/dns.txt -m dns
+
+# Virtual Host
+python3 mxmbuster.py -u https://ejemplo.com -w wordlists/vhost.txt -m vhost
+
+🔧 Modos disponibles
+
+dir, dns, vhost, s3, gcs, tftp, fuzz
