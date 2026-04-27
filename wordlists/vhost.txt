@@ -1,0 +1,6 @@
+admin.intranet
+dev-api
+test
+staging
+beta
+internal
