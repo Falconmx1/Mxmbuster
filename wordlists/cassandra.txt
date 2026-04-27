@@ -1,0 +1,5 @@
+cassandra:cassandra
+admin:admin
+root:root
+cassandra:password
+admin:password
