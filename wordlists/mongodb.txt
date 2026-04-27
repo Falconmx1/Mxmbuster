@@ -1,0 +1,10 @@
+admin:admin
+root:toor
+mongodb:mongodb
+admin:password
+root:password
+admin:123456
+user:user
+test:test
+admin:admin123
+root:root123
